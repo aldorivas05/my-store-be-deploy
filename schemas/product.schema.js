@@ -20,7 +20,7 @@ const createProductSchema = Joi.object({
   image: image.required(),
   categoryId: categoryId.required(),
 });
-
+// Products
 const updateProductSchema = Joi.object({
   name: name,
   price: price,
